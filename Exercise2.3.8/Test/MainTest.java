@@ -10,7 +10,7 @@ public class MainTest {
     @Test
     public void dateTime() throws Exception {
         String toParse = "2023-03-01T13:00:00Z";
-        assertEquals("2023-03-01T13:00Z", Main.dateTime(toParse).toString());
+        assertEquals("2023-03-01T13:00Z",  Main.dateTime(toParse).toString());
     }
 
     @Test
